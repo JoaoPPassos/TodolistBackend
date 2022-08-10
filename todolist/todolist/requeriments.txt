@@ -1,0 +1,5 @@
+django>=3.0.0
+djangorestframework
+psycopg2
+pyjwt
+bcrypt
