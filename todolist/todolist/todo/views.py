@@ -75,6 +75,7 @@ class TodoListAPIView(generics.ListAPIView):
         {
           "title":entry.title,
           "description": entry.description,
+          "id": entry.id,
           "priority": {
             'nm_priority': entry.get_priority_display(),
             'id': entry.priority,
